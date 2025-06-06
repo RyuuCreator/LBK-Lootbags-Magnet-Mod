@@ -56,7 +56,7 @@ Dans le fichier sounds.xml :
 
 1. **Activer/Désactiver le bags magnet**  
    - Utilisez le bloc spécifique pour **activer ou désactiver** la fonction de téléportation des lootbags.  
-   - Lors de l’activation, le **scan démarre et le son se joue si un lootbags est a porté**.
+   - Lors de l’activation, le **scan démarre et se relance toute les 5min, le son se joue si un lootbags est à porté puis le téléporte**.
 
 ---
 
