@@ -67,7 +67,8 @@ Dans le fichier sounds.xml :
 
 ## 🚫 Droits d’auteur et conditions d’utilisation
 
-Ce mod est **propriété exclusive** de **RyuuCreator**. 
+Ce mod est **propriété exclusive** de **RyuuCreator**. Ce mod est destiné à la communauté **\[LBK\] Les Brakass**.
+
 Toute modification, redistribution ou utilisation à des fins commerciales **sans autorisation explicite** est **strictement interdite**.
 
 - **Interdiction de modification** : Ce mod ne peut être modifié, altéré ou utilisé dans un projet dérivé sans accord préalable.  
