@@ -6,8 +6,9 @@
 
 ## 📌 Description
 
-Lootbags Magnet Mod est un mod pour **7 Days to Die** permettant de téléporter automatiquement les lootbags à proximité via un bloc spécifique.  
-Lorsque ce bloc est activé, il scan la zone tout de suite puis toute les 5min et déplace les lootbags trouvés dans son rayon d’action, tout en déclenchant un **effet sonore customisé**.
+Lootbags Magnet Mod est un mod pour **7 Days to Die** qui permet de téléporter automatiquement les lootbags à proximité via un bloc spécifique.  
+Lorsque ce bloc est activé, il scanne la zone immédiatement puis toutes les 5 minutes, et déplace les lootbags trouvés dans son rayon d’action, tout en déclenchant un **effet sonore customisé**.  
+> **Note :** Une fois qu'un lootbag a été aspiré, il ne sera pas aspiré à nouveau tant que le bloc n'a pas été désactivé puis réactivé.
 
 ---
 
