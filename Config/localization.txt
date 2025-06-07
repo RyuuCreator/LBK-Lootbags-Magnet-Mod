@@ -1,0 +1,4 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+cntLootbagsMagnetOff,blocks,block,,,Bags Magnet,,,,Aimant à sacs,,,,,,,,,
+cntLootbagsMagnetOn,blocks,block,,,Bags Magnet,,,,Aimant à sacs,,,,,,,,,
+cntLootbagsMagnetDesc,blocks,block,,,This block automatically pulls in lootbags dropped by zombies upon death. It does not affect player-dropped items.,,,,Ce bloc attire automatiquement les sacs laissées par les zombies après leur mort. N'affecte pas les objets jetés par le joueur.,,,,,,,,,

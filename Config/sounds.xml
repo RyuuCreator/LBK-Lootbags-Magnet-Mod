@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Lootbags Magnet Mod
+By RyuuCreator 
+-->
+
+<LootbagsMagnet>
+    <append xpath="/Sounds">
+        <SoundDataNode name="LootbagsMagnetSound"> 
+            <AudioSource name="Sounds/AudioSource_UseAction"/>
+            <AudioClip ClipName="#@modfolder:Resources/LootbagsMagnetSound.unity3d?suction"/>
+            <LowestPitch name="0.9"/>
+            <HighestPitch name="1.0"/>
+            <LocalCrouchVolumeScale value="1.0"/> 
+            <CrouchNoiseScale value="0.5"/> 
+            <NoiseScale value="1"/> 
+            <MaxVoices value="1"/> 
+            <MaxRepeatRate value="0.01"/> 
+            <runningvolumescale value="50"/> <!-- Volume du son -->
+        </SoundDataNode>
+    </append>
+</LootbagsMagnet>

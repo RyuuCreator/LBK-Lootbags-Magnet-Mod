@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <Name value="LBK-LootbagsMagnetMod" /> 
+    <DisplayName value="[LBK] Lootbags Magnet Mod" /> 
+    <Version value="1.0.0.1" /> 
+	<Description value="Lootbags Magnet Mod by RyuuCreator. This block automatically pulls in lootbags dropped by zombies upon death. It does not affect player-dropped items."/> 
+    <Author value="RyuuCreator" /> 
+    <Website value="" /> 
+	<SkipWithAntiCheat value="false" />
+</xml>

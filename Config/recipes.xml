@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Lootbags Magnet Mod
+By RyuuCreator 
+-->
+
+<LootbagsMagnet>
+    <append xpath="/recipes">
+        <recipe name="cntLootbagsMagnetOff" count="1" craft_area="workbench" tags="workbenchCrafting" craft_time="10" >
+            <ingredient name="resourceForgedIron" count="8"/>
+            <ingredient name="resourceRockSmall" count="250"/>
+            <ingredient name="resourceNail" count="16"/>
+            <ingredient name="resourcePaper" count="16"/>
+            <ingredient name="resourceGlue" count="1"/>
+        </recipe>
+    </append>
+</LootbagsMagnet>

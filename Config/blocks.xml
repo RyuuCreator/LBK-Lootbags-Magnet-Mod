@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Lootbags Magnet Mod
+By RyuuCreator 
+-->
+
+<LootbagsMagnet>
+    <append xpath="/blocks">
+        <block name="cntLootbagsMagnetOff">
+			<property name="Class" value="LootbagsMagnetMod.LootbagsMagnet, LootbagsMagnetMod"/>
+			<property name="Material" value="Mcobblestone"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="CustomIcon" value="cntLootbagsMagnetOffIcon"/>
+			<property name="Model" value="#@modfolder:Resources/LootbagsMagnet.unity3d?LootbagsMagnetOffPrefab"/>
+			<property name="ModelOffset" value="0,.5,0"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="DescriptionKey" value="cntLootbagsMagnetDesc"/>
+			<property name="Group" value="Basics,Building,advBuilding"/>
+			<drop event="Destroy" name="cntLootbagsMagnetOff" count="1"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+
+		<block name="cntLootbagsMagnetOn">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Class" value="LootbagsMagnetMod.LootbagsMagnet, LootbagsMagnetMod"/>
+			<property name="Material" value="Mcobblestone"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="CustomIcon" value="cntLootbagsMagnetOnIcon"/>
+			<property name="Model" value="#@modfolder:Resources/LootbagsMagnet.unity3d?LootbagsMagnetOnPrefab"/>
+			<property name="ModelOffset" value="0,.5,0"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="DescriptionKey" value="cntLootbagsMagnetDesc"/>
+			<property name="MagnetRadius" value="50"/> <!-- Rayon d'action -->
+			<property name="Group" value="Basics,Building,advBuilding"/>			
+			<drop event="Destroy" name="cntLootbagsMagnetOff" count="1"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+	</append>	
+</LootbagsMagnet>
