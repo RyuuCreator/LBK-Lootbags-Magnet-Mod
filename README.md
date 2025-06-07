@@ -1,4 +1,4 @@
-# [LBK] Lootbags Magnet Mod
+# LBK Lootbags Magnet Mod
 
 **Version : 1.0.0.1** 
 
@@ -67,7 +67,7 @@ Dans le fichier sounds.xml :
 
 ## 🚫 Droits d’auteur et conditions d’utilisation
 
-Ce mod est **propriété exclusive** de **RyuuCreator**. Ce mod est destiné à la communauté **\[LBK\] Les Brakass**.
+Ce mod est **propriété exclusive** de **RyuuCreator**. Ce mod est destiné à la communauté **LBK Les Brakass**.
 
 Toute modification, redistribution ou utilisation à des fins commerciales **sans autorisation explicite** est **strictement interdite**.
 
