@@ -18,7 +18,6 @@ By RyuuCreator
 			<property name="DescriptionKey" value="cntLootbagsMagnetDesc"/>
 			<property name="Group" value="Basics,Building,advBuilding"/>
 			<drop event="Destroy" name="cntLootbagsMagnetOff" count="1"/>
-			<drop event="Destroy" count="0"/>
 		</block>
 
 		<block name="cntLootbagsMagnetOn">
@@ -35,7 +34,6 @@ By RyuuCreator
 			<property name="MagnetRadius" value="50"/> <!-- Rayon d'action -->
 			<property name="Group" value="Basics,Building,advBuilding"/>			
 			<drop event="Destroy" name="cntLootbagsMagnetOff" count="1"/>
-			<drop event="Destroy" count="0"/>
 		</block>
 	</append>	
 </LootbagsMagnet>
