@@ -1,105 +1,104 @@
-# LBK Lootbags Magnet Mod
-
-**Version : 1.0.0.1** 
+# LBK Lootbags Magnet Mod ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/RyuuCreator/LBK-Lootbags-Magnet-Mod/total?style=flat&color=%23950000)
+**Version: 1.0.0.1**
 
 ---
 
 ## 📌 Description
 
-Lootbags Magnet Mod est un mod pour **7 Days to Die** qui permet de téléporter automatiquement les lootbags à proximité via un bloc spécifique.  
-Lorsque ce bloc est activé, il scanne la zone immédiatement puis toutes les 5 minutes, et déplace les lootbags trouvés dans son rayon d’action, tout en déclenchant un **effet sonore customisé**.  
-> **Note :** Une fois qu'un lootbag a été aspiré, il ne sera pas aspiré à nouveau tant que le bloc n'a pas été désactivé puis réactivé.
+Lootbags Magnet Mod is a mod for **7 Days to Die** that automatically teleports nearby lootbags using a dedicated block.  
+When this block is activated, it scans the area immediately and then every five minutes, moving any lootbags found within its range while triggering a **custom sound effect**.  
+> **Note:** Once a lootbag has been teleported, it will not be teleported again until the block is deactivated and then reactivated.
 
 ---
 
-## ⚡ Fonctionnalités
+## ⚡ Features
 
-- ✅ **Activation/Désactivation** via le bloc dédié (toggle ON/OFF).  
-- 🎯 **Téléportation** des lootbags détectés dans le rayon d'action.  
-- 🔧 **Personnalisation du rayon d’action** via la propriété `MagnetRadius` dans blocks.xml.  
-- 🔊 **Effet sonore** lors de l'activation du magnet.  
-- 🔧 **Personnalisation du volume** via la propriété `runningvolumescale` dans le sounds.xml.  
+- ✅ **On/Off Toggle** via the dedicated block.  
+- 🎯 **Teleportation** of lootbags detected within the operational radius.  
+- 🔧 **Customizable range** via the `MagnetRadius` property in the blocks.xml file.  
+- 🔊 **Sound effect** upon magnet activation.  
+- 🔧 **Volume customization** via the `runningvolumescale` property in the sounds.xml file.
 
 ---
 
 ## 🛠️ Installation
 
-### Étapes :
+### Steps:
 
-1. **Télécharger le mod**  
-   - Récupérez la dernière version via [la Releases](https://github.com/RyuuCreator/LBK-Lootbags-Magnet-Mod/releases/tag/1.0.0.1).
+1. **Download the mod**  
+   - Get the latest version from the [Releases](https://github.com/RyuuCreator/LBK-Lootbags-Magnet-Mod/releases/tag/1.0.0.1).
 
-2. **Copier les fichiers dans le dossier du jeu**  
+2. **Copy the files into the game folder**  
    - `Steam\steamapps\common\7 Days To Die\Mods`
 
-3. **Lancer le jeu**  
-   - Le mod sera chargé automatiquement au démarrage.
+3. **Launch the game**  
+   - The mod will be loaded automatically at startup.
 
 ---
 
 ## ⚙️ Configuration
 
-### 📏 Ajuster le rayon d’action du magnet
-Dans le fichier blocks.xml :
+### 📏 Adjusting the Magnet's Range  
+In the file blocks.xml, set:  
     ```
     <property name="MagnetRadius" value="50"/>
     ```
 
-### 🔊 Configurer l’effet sonore
-Dans le fichier sounds.xml :
-    ``` 
+### 🔊 Configuring the Sound Effect  
+In the file sounds.xml, set:  
+    ```
     <runningvolumescale value="50"/>
     ```
 
 ---
 
-## 🎮 Utilisation
+## 🎮 Usage
 
-1. **Activer/Désactiver le Bags Magnet**
-   - Utilisez le bloc spécifique pour **activer ou désactiver** la fonction de téléportation des lootbags.
-   - Lors de l’activation, le **scan démarre et se relance toutes les 5 minutes**. Si un lootbag est à portée, un son se joue puis il est téléporté.
-   - Une fois qu’un lootbag a été téléporté, le bloc ne le re-téléportera plus tant que le bloc n’aura pas été désactivé puis réactivé.
+1. **Activate/Deactivate the Bags Magnet**  
+   - Use the designated block to **turn on or off** the lootbag teleportation feature.  
+   - When activated, the **scan initiates and repeats every 5 minutes**. If a lootbag is within range, a sound plays and it is teleported.  
+   - Once a lootbag has been teleported, it will not be re-teleported until the block is deactivated and reactivated.
 
-2. **Ramasser le Bags Magnet**
-   - Lorsque le joueur frappe le bloc, celui-ci est détruit en un coup et **le ramasse**.
-     
----
-
-## 🚫 Droits d’auteur et conditions d’utilisation
-
-Ce mod est **propriété exclusive** de **RyuuCreator**. Ce mod est destiné à la communauté **LBK Les Brakass**.
-
-Toute modification, redistribution ou utilisation à des fins commerciales **sans autorisation explicite** est **strictement interdite**.
-
-- **Interdiction de modification** : Ce mod ne peut être modifié, altéré ou utilisé dans un projet dérivé sans accord préalable.  
-- **Interdiction de redistribution** : Il est interdit de partager ou distribuer ce mod sur d’autres plateformes sans autorisation.  
-- **Interdiction d’usage commercial** : Ce mod ne peut être vendu, utilisé dans des produits commerciaux ou monétisé d’aucune manière.  
-
-Toute violation de ces termes peut entraîner des **sanctions légales** conformément aux lois sur la propriété intellectuelle.
+2. **Pick Up the Bags Magnet**  
+   - When the player hits the block, it is destroyed in one hit and **collected**.
 
 ---
 
-## 🔧 Paramètres modifiables
+## 🚫 Copyright and Terms of Use
 
-Les utilisateurs **peuvent ajuster** les paramètres suivants pour personnaliser leur expérience sans modifier le code du mod :  
-- **Rayon d’action** (`MagnetRadius`) : Peut être modifié dans le fichier XML du bloc (`blocks.xml`) pour ajuster la portée du bags magnet.  
-- **Niveau du son** (`runningvolumescale`) : Peut être modifié dans le fichier XML du son (`sounds.xml`) pour adapter le volume selon les préférences du joueur.  
+This mod is the **exclusive property** of **RyuuCreator** and is intended for the **LBK Les Brakass** community.
 
-⚠️ **Aucune autre modification du mod n’est autorisée. Toute tentative de modification du code source ou redistribution du mod est interdite.**
+Any modification, redistribution, or commercial use **without explicit permission** is **strictly prohibited**.
 
----
+- **Modification Prohibition:** This mod cannot be altered, modified, or used in a derivative project without prior agreement.  
+- **Redistribution Ban:** Sharing or distributing this mod on other platforms is forbidden without authorization.  
+- **Commercial Use Prohibition:** This mod cannot be sold, used in commercial products, or monetized in any way.
 
-## 💡 Remerciements
-
-Merci à la communauté **Les Brakkass** pour le soutien et les retours constructifs.  
-Si vous avez des idées ou suggestions, ouvrez une issue dans le dépôt officiel !
+Any breach of these terms may result in **legal consequences** under intellectual property laws.
 
 ---
 
-### ✨ Contact & Support
-💬 Discord : [Lien vers le serveur](https://discord.gg/MYJz5tvzCf) <br/>
-🛠️ GitHub : [Repo du projet](https://github.com/RyuuCreator/LBK-LootbagsMagnetMod)
+## 🔧 Customizable Settings
+
+Users can **adjust** the following settings to tailor their experience without modifying the mod's code:  
+- **Operational Radius** (`MagnetRadius`): Change this value in the `blocks.xml` file to adjust the magnet's range.  
+- **Sound Level** (`runningvolumescale`): Modify this value in the `sounds.xml` file to set the volume according to your preference.
+
+⚠️ **No other modifications are allowed. Any attempt to alter the source code or redistribute the mod is prohibited.**
 
 ---
 
-### 🚀 Bon jeu et amusez-vous !
+## 💡 Acknowledgements
+
+Thanks to the **Les Brakass** community for the support and constructive feedback.  
+If you have any ideas or suggestions, please open an issue on the official repository!
+
+---
+
+### ✨ Contact & Support  
+💬 Discord: [Server Link](https://discord.gg/MYJz5tvzCf)  
+🛠️ GitHub: [Project Repository](https://github.com/RyuuCreator/LBK-LootbagsMagnetMod)
+
+---
+
+### 🚀 Enjoy your game and have fun!
