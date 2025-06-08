@@ -1,5 +1,5 @@
 # LBK Lootbags Magnet Mod ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/RyuuCreator/LBK-Lootbags-Magnet-Mod/total?style=flat&color=%23950000)
-**Version : 1.0.0.1** 
+**Version: 1.0.0.1** 
 
 ---
 
