@@ -25,7 +25,7 @@ Lorsque ce bloc est activé, il scanne la zone immédiatement puis toutes les 5 
 ### Étapes :
 
 1. **Télécharger le mod**  
-   - Récupérez la dernière version via [la Releases](https://github.com/RyuuCreator/LBK-Lootbags-Magnet-Mod/releases/tag/1.0.0.1).
+   - Récupérez la dernière version via [la Releases](https://github.com/RyuuCreator/LBK-Lootbags-Magnet-Mod/releases).
 
 2. **Copier les fichiers dans le dossier du jeu**  
    - `Steam\steamapps\common\7 Days To Die\Mods`
