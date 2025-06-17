@@ -1,5 +1,5 @@
 # LBK Lootbags Magnet Mod ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/RyuuCreator/LBK-Lootbags-Magnet-Mod/total?style=flat&color=%23950000)
-**Version: 1.0.0.1**
+**Version: 2.0.0.1**
 
 ---
 
@@ -16,8 +16,7 @@ When this block is activated, it scans the area immediately and then every five 
 - ✅ **On/Off Toggle** via the dedicated block.  
 - 🎯 **Teleportation** of lootbags detected within the operational radius.  
 - 🔧 **Customizable range** via the `MagnetRadius` property in the blocks.xml file.  
-- 🔊 **Sound effect** upon magnet activation.  
-- 🔧 **Volume customization** via the `runningvolumescale` property in the sounds.xml file.
+- 🔊 **Sound effect** upon magnet activation.
 
 ---
 
@@ -42,12 +41,6 @@ When this block is activated, it scans the area immediately and then every five 
 In the file blocks.xml, set:  
     ```
     <property name="MagnetRadius" value="50"/>
-    ```
-
-### 🔊 Configuring the Sound Effect  
-In the file sounds.xml, set:  
-    ```
-    <runningvolumescale value="50"/>
     ```
 
 ---
@@ -81,8 +74,7 @@ Any breach of these terms may result in **legal consequences** under intellectua
 ## 🔧 Customizable Settings
 
 Users can **adjust** the following settings to tailor their experience without modifying the mod's code:  
-- **Operational Radius** (`MagnetRadius`): Change this value in the `blocks.xml` file to adjust the magnet's range.  
-- **Sound Level** (`runningvolumescale`): Modify this value in the `sounds.xml` file to set the volume according to your preference.
+- **Operational Radius** (`MagnetRadius`): Change this value in the `blocks.xml` file to adjust the magnet's range.
 
 ⚠️ **No other modifications are allowed. Any attempt to alter the source code or redistribute the mod is prohibited.**
 

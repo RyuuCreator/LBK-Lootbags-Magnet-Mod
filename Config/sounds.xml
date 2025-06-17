@@ -7,7 +7,7 @@ By RyuuCreator
 <LootbagsMagnet>
     <append xpath="/Sounds">
         <SoundDataNode name="LootbagsMagnetSound"> 
-            <AudioSource name="Sounds/AudioSource_UseAction"/>
+            <AudioSource name="@:Sounds/Prefabs/AudioSource_UseAction.prefab"/>
             <AudioClip ClipName="#@modfolder:Resources/LootbagsMagnetSound.unity3d?suction"/>
             <LowestPitch name="0.9"/>
             <HighestPitch name="1.0"/>
@@ -16,7 +16,6 @@ By RyuuCreator
             <NoiseScale value="1"/> 
             <MaxVoices value="1"/> 
             <MaxRepeatRate value="0.01"/>
-            <runningvolumescale value="50"/> <!-- Volume du son -->
         </SoundDataNode>
     </append>
 </LootbagsMagnet>
