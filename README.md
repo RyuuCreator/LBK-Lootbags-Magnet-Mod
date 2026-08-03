@@ -1,5 +1,5 @@
 # LBK Lootbags Magnet Mod ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/RyuuCreator/LBK-Lootbags-Magnet-Mod/total?style=flat&color=%23950000)
-**Version: 2.0.0.1**
+**Version: 3.0.0.3**
 
 ---
 
@@ -32,6 +32,10 @@ When this block is activated, it scans the area immediately and then every five 
 
 3. **Launch the game**  
    - The mod will be loaded automatically at startup.
+
+### 🌐 Multiplayer Usage
+
+⚠️ **Important:** If you use this mod in **multiplayer**, it must be installed **on both the server and the client**. If the mod is installed only on the server or only on the clients, proper functionality cannot be guaranteed.
 
 ---
 
